@@ -177,13 +177,12 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
     opacity: 1;
 }
+.search-form__label {
+    cursor: pointer;
+}
 
  .search-form__label:hover .search-form__label-text {
     text-decoration: underline;
-}
-
-.search-form__label {
-    cursor: pointer;
 }
 
 .search-form__submit-button {
